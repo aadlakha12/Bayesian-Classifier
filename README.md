@@ -44,7 +44,7 @@ When the predictors take up a continuous value and are not discrete, we assume t
 
 The conditional probability formula for continuous value gets changed to,
 
-![alt text](https://github.com/aadlakha12/Bayesian-Classifier/blob/master/Images/Pdf.gif?raw=true)
+![alt text](https://github.com/aadlakha12/Bayesian-Classifier/blob/master/Images/Pdf.png?raw=true)
 
 
 
