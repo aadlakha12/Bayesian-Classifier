@@ -4,7 +4,7 @@ Implemented a Bayesian Classifier using Bayes Theorem for five different classes
 
 This is based on the Bayes theorem to find the probability of any class given some information.
 
-Multinomial Naive Bayes
+### Multinomial Naive Bayes
 
 When the predictors take up a discrete values.
 
@@ -36,7 +36,7 @@ To find the class y with maximum probability, we the below function, and we can 
 
 Prosterior = (Prior*Likelihood)/Evidence.
 
-Gaussian Naive Bayes
+### Gaussian Naive Bayes
 
 When the predictors take up a continuous value and are not discrete, we assume that these values are sampled from a gaussian distribution. 
 
