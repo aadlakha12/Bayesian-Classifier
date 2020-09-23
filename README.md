@@ -4,6 +4,16 @@ Implemented a Bayesian Classifier using Bayes Theorem for five different classes
 
 This is based on the Bayes theorem to find the probability of any class given some information.
 
+### Gaussian Naive Bayes
+
+When the predictors take up a continuous value and are not discrete, we assume that these values are sampled from a gaussian distribution. 
+
+![alt text](https://github.com/aadlakha12/Bayesian-Classifier/blob/master/Images/gd.gif?raw=true)
+
+The conditional probability formula for continuous value gets changed to,
+
+![alt text](https://github.com/aadlakha12/Bayesian-Classifier/blob/master/Images/Pdf.png?raw=true)
+
 ### Multinomial Naive Bayes
 
 When the predictors take up a discrete values.
@@ -35,17 +45,5 @@ To find the class y with maximum probability, we the below function, and we can 
 ![alt text](https://github.com/aadlakha12/Bayesian-Classifier/blob/master/Images/arg.png?raw=true)
 
 Prosterior = (Prior*Likelihood)/Evidence.
-
-### Gaussian Naive Bayes
-
-When the predictors take up a continuous value and are not discrete, we assume that these values are sampled from a gaussian distribution. 
-
-![alt text](https://github.com/aadlakha12/Bayesian-Classifier/blob/master/Images/gd.gif?raw=true)
-
-The conditional probability formula for continuous value gets changed to,
-
-![alt text](https://github.com/aadlakha12/Bayesian-Classifier/blob/master/Images/Pdf.png?raw=true)
-
-
 
 
