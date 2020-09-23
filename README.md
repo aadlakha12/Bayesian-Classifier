@@ -4,6 +4,18 @@ Implemented a Bayesian Classifier using Bayes Theorem for five different classes
 
 This is based on the Bayes theorem to find the probability of any class given some information.
 
+### Z-Score
+
+A z-score describes the position of a raw score in terms of its distance from the mean, when measured in standard deviation units. The z-score is positive if the value lies above the mean, and negative if it lies below the mean.
+
+It is also known as a standard score, because it allows comparison of scores on different kinds of variables by standardizing the distribution. A standard normal distribution is a normally shaped distribution with a mean of 0 and a standard deviation of 1.
+
+It is useful to standardized the values of a normal distribution by converting them into z-scores because:
+- It allows researchers to calculate the probability of a score occurring within a standard normal distribution;
+- Enables us to compare two scores that are from different samples.
+
+The formula for calculating a z-score is is z = (x-μ)/σ, where x is the raw score, μ is the population mean, and σ is the population standard deviation.
+
 ### Gaussian Naive Bayes
 
 When the predictors take up a continuous value and are not discrete, we assume that these values are sampled from a gaussian distribution. 
